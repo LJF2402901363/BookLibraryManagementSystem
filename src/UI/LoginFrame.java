@@ -20,11 +20,9 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JPasswordField;
 import javax.swing.JTextField;
-
 import domain.Account;
 import factory.ServiceFactory;
 import service.AdministratortService;
-import service.ReaderServiceImpl;
 import util.ImageIconUtilTools;
 
 /**
@@ -47,7 +45,6 @@ public class LoginFrame extends JFrame {
 	public static final int WIDTH = 800;
 	/** 界面的高 */
 	public static final int HEIGHT = 600;
-
 	@SuppressWarnings("javadoc")
 	public LoginFrame() {
 		this.contentPanel = (JPanel) this.getContentPane();
@@ -55,11 +52,10 @@ public class LoginFrame extends JFrame {
 		this.userNameField = new JTextField();
 		this.password = new JPasswordField();
 		this.chekCodeField = new JTextField();
-
 		this.gridLayout = new GridLayout(10, 1);
 		this.contentPanel.setLayout(gridLayout);
 		this.layeredPane = new JLayeredPane();
-		this.accountService = (AdministratortService) ServiceFactory.newInstanceService("AccountService");;
+		this.accountService = (AdministratortService) ServiceFactory.newInstanceService("AdministratortService");;
 		this.contentPanel.setOpaque(false);
 		this.setLayeredPane(layeredPane);
 		setBackGroudImage();
@@ -110,14 +106,12 @@ public class LoginFrame extends JFrame {
 	private void initTitle() {
 
 		JPanel panel1 = new JPanel(new FlowLayout());
-//		panel1.setBorder(BorderFactory.createLineBorder(Color.RED,2));
 		panel1.setPreferredSize(new Dimension(600, 10));
 		JLabel lbl_title1 = new JLabel("图书管理系统");
 		lbl_title1.setFont(new Font("微软雅黑", Font.BOLD, 22));
 		panel1.setOpaque(false);
 		panel1.add(lbl_title1);
 		JPanel panel2 = new JPanel(new FlowLayout());
-//		panel2.setBorder(BorderFactory.createLineBorder(Color.yellow,2));
 		panel2.setPreferredSize(new Dimension(600, 10));
 		JLabel lbl_title2 = new JLabel("用户登录界面");
 		lbl_title2.setFont(new Font("微软雅黑", Font.BOLD, 18));
@@ -130,7 +124,6 @@ public class LoginFrame extends JFrame {
 	private void initUserNameField() {
 		JPanel panel1 = new JPanel(new FlowLayout());
 		panel1.setOpaque(false);
-		// panel1.setBorder(BorderFactory.createLineBorder(Color.RED,2));
 		panel1.setPreferredSize(new Dimension(600, 10));
 		JLabel lbl_name = new JLabel("用户名");
 		panel1.add(lbl_name);
@@ -154,9 +147,8 @@ public class LoginFrame extends JFrame {
 	private void initPasswordField() {
 		JPanel panel1 = new JPanel(new FlowLayout());
 		panel1.setOpaque(false);
-//		panel1.setBorder(BorderFactory.createLineBorder(Color.RED,2));
 		panel1.setPreferredSize(new Dimension(600, 10));
-		JLabel lbl_name = new JLabel("用户名");
+		JLabel lbl_name = new JLabel("密码");
 		panel1.add(lbl_name);
 		this.password.setPreferredSize(new Dimension(250, 30));
 		panel1.add(this.password);
@@ -178,7 +170,6 @@ public class LoginFrame extends JFrame {
 	private void initCheckField() {
 		JPanel panel1 = new JPanel(new FlowLayout());
 		panel1.setOpaque(false);
-//		panel1.setBorder(BorderFactory.createLineBorder(Color.RED,2));
 		panel1.setPreferredSize(new Dimension(200, 10));
 		JLabel lbl_name = new JLabel("验证码");
 		panel1.add(lbl_name);
@@ -196,7 +187,6 @@ public class LoginFrame extends JFrame {
 			
 		});
 		panel1.add(this.chekCodeField);
-//		CheckCode  checkCode =CheckCodeImageUtil.getCheckCodeImage() 
 		this.checkCode = new CheckCodeLabel();
 		checkCode.setToolTipText("看不清？点击刷新一下");
 		JLabel lbl_reflush = new JLabel("看不清？刷新一下");
@@ -235,7 +225,6 @@ public class LoginFrame extends JFrame {
 		JPanel panel1 = new JPanel(flowLayout);
 		flowLayout.setHgap(60);
 		panel1.setOpaque(false);
-//		panel1.setBorder(BorderFactory.createLineBorder(Color.RED,2));
 		panel1.setPreferredSize(new Dimension(200, 10));
 		panel1.add(this.btn_remebner);
 		this.btn_remebner.setBorder(BorderFactory.createEmptyBorder());
@@ -289,7 +278,6 @@ public class LoginFrame extends JFrame {
 				}
 				// 获取验证码
 				String code = checkCode.getCode();
-				System.out.println("输入的"+inputcheckCode+"---生成的"+code);
 				if (!inputcheckCode.equalsIgnoreCase(code)) {
 					// 验证码错误
 					JOptionPane.showConfirmDialog(LoginFrame.this, "验证码错误！");
@@ -325,7 +313,6 @@ public class LoginFrame extends JFrame {
 		FlowLayout flowLayout = new FlowLayout();
 		JPanel panel1 = new JPanel(flowLayout);
 		panel1.setOpaque(false);
-		// panel1.setBorder(BorderFactory.createLineBorder(Color.RED,2));
 		panel1.setPreferredSize(new Dimension(200, 10));
 		panel1.add(this.btn_login);
 		this.contentPanel.add(panel1);
@@ -336,7 +323,6 @@ public class LoginFrame extends JFrame {
 		flowLayout.setHgap(15);
 		JPanel panel1 = new JPanel(flowLayout);
 		panel1.setOpaque(false);
-		// panel1.setBorder(BorderFactory.createLineBorder(Color.BLUE,2));
 		panel1.setPreferredSize(new Dimension(200, 10));
 		JLabel lbl1 = new JLabel("社交登录");
 		lbl1.setFont(new Font("微软雅黑", Font.BOLD, 12));

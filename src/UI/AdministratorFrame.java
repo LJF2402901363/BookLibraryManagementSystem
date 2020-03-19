@@ -46,24 +46,8 @@ public class AdministratorFrame extends JFrame {
 	private JLabel lbl_currPanel = null;
 	@SuppressWarnings("javadoc")
 	public AdministratorFrame(LoginFrame loginFrame, Account administrator) {
-		this();
 		this.setTitle("图书管理系统");
 		this.administrator = administrator;
-		// 给窗口添加监听事件
-		this.addWindowListener(new WindowAdapter() {
-			@Override
-			public void windowClosing(WindowEvent e) {
-				if (loginFrame != null) {
-					loginFrame.setVisible(true);
-				}
-				AdministratorFrame.this.dispose();
-			}
-		});
-	}
-
-	
-	@SuppressWarnings("javadoc")
-	public AdministratorFrame() {
 		this.setTitle("图书管理系统");
 		this.setBounds(100, 50, WEIHt, HIGHT);
 		this.contentPanel = this.getContentPane();
@@ -85,7 +69,18 @@ public class AdministratorFrame extends JFrame {
 						AdministratorFrame.this.dispose();
 					}
 				});
+		// 给窗口添加监听事件
+		this.addWindowListener(new WindowAdapter() {
+			@Override
+			public void windowClosing(WindowEvent e) {
+				if (loginFrame != null) {
+					loginFrame.setVisible(true);
+				}
+				AdministratorFrame.this.dispose();
+			}
+		});
 	}
+
 	/**
 	 * 给按钮添加通用的样式
 	 * 
@@ -310,11 +305,10 @@ public void createNavCenterLabel(String text) {
  */
 	private JPanel navRightPanel() {
 		JPanel panel = new JPanel(new FlowLayout(FlowLayout.RIGHT));
-//		panel.setBorder(BorderFactory.createLineBorder(Color.red, 2));
 		panel.setPreferredSize(new Dimension(190, 40));
 		panel.setBackground(new Color(57, 61, 73));
 		Font font1 = new Font("微软雅黑", Font.BOLD, 14);
-		JLabel lbl_welcome = new JLabel("欢迎您,Admin：" + "陌意随影");
+		JLabel lbl_welcome = new JLabel("欢迎您,Admin：" + administrator.getName());
 		lbl_welcome.setFont(font1);
 		lbl_welcome.setForeground(Color.WHITE);
 		panel.add(lbl_welcome);

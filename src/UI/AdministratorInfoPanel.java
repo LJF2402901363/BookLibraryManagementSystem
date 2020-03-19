@@ -69,7 +69,7 @@ public class AdministratorInfoPanel  extends JPanel{
 		this.sexField  = new JTextField();
 		this.ageField  = new JTextField();
 		this.hobbyField  = new JTextArea();
-		this.accountService = (AdministratortService) ServiceFactory.newInstanceService("AccountService");
+		this.accountService = (AdministratortService) ServiceFactory.newInstanceService("AdministratortService");
 		this.infoDescription = new JTextArea();
 		this.imgBtn =new JButton();
 		this.sysLogService = (SysLogService) ServiceFactory.newInstanceService("SysLogService");
@@ -98,9 +98,6 @@ public class AdministratorInfoPanel  extends JPanel{
 				this.sexField.setEditable(true);
 				btn_ok.setText("确认修改");				
 			}else {
-//				if(administrator == null) {
-//					return;
-//				}
 				//确认修改
 				String name = nameFiled.getText();
 				if(name == null || name.trim().length() == 0) {
@@ -161,7 +158,6 @@ public class AdministratorInfoPanel  extends JPanel{
 						   log.setOperator(administrator.getName());
 						   log.setDetails("更新用户");
 						   sysLogService.saveSysLog(log);
-						   initRightPanel();
 						 JOptionPane.showMessageDialog(null,"更新成功!");
 					 }else {
 						 JOptionPane.showMessageDialog(null,"更新失败!");
@@ -299,7 +295,6 @@ public class AdministratorInfoPanel  extends JPanel{
 	});
 		buttomPanel.add(infoDescription);
 		headPanel.setPreferredSize(new Dimension(200,110));
-//		headPanel.setBorder(BorderFactory.createLineBorder(Color.red,2));
 		buttomPanel.setPreferredSize(new Dimension(200,120));
 		leftPanel.setPreferredSize(new Dimension(250,150));
 		this.leftPanel.add(headPanel);
@@ -317,12 +312,5 @@ public class AdministratorInfoPanel  extends JPanel{
 			btn.setFocusPainted(false);
 			btn.setFont(new Font("微软雅黑", Font.BOLD, 14));
 			btn.setForeground(Color.WHITE);		
-		}
-		public static void main(String[] args) {
-			JFrame f = new JFrame();
-			f.setBounds(100, 100, 800, 600);
-			f.getContentPane().add(new AdministratorInfoPanel(new Account()));
-			f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-			f.setVisible(true);
 		}
 }

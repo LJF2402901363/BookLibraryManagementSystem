@@ -103,7 +103,7 @@ public class TableCellPanel  extends JPanel{
 			namePanel.setPreferredSize(new Dimension(200,30));
 			typePanel.setPreferredSize(new Dimension(200,30));
 			createTimePanel.setPreferredSize(new Dimension(200,30));
-			ImageIcon icon = new ImageIcon("C:\\Users\\Administrator\\workspace03\\java-booksystem\\src\\下载.jpg");
+			ImageIcon icon = new ImageIcon("resources\\testImgs\\下载.jpg");
 			ImageIcon createHeadImage = ImageIconUtilTools.createHeadImage(icon, 0.25, 0.25);
 			JButton btn = new JButton(createHeadImage);
 			btn.setBackground(new Color(242,242,242));

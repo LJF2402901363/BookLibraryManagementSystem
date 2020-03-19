@@ -60,7 +60,7 @@ public class AdministratorMangePanel extends JPanel {
 		this.tabbedPane = new JTabbedPane();
 		this.table = new JTable();
 		this.accountTableModel = new AccountTableListModel();
-		this.administratortService = (AdministratortService) ServiceFactory.newInstanceService("AdministratorService");;
+		this.administratortService = (AdministratortService) ServiceFactory.newInstanceService("AdministratortService");;
 		this.tabbedPane.setPreferredSize(new Dimension(900, 600));
 		this.accountTablePanel = new AccountTablePanel(this.administratortService, this.table,this.accountTableModel);
 		this.table.setRowHeight(40);

@@ -106,8 +106,6 @@ public class TablePanel<T> extends JPanel {
 		this.clearBtn = new JButton("清除");
 		this.searchCombox = new JComboBox<>();
     	this.buttonPanel= new JPanel();
-//		this.buttonPanel.setBorder(BorderFactory.createLineBorder(Color.red, 2));
-//		this.tablePanel.setBorder(BorderFactory.createLineBorder(Color.gray, 2));
 		this.setTablePanelDimension(TABLEPANELDIMENSION);
 		this.setButtomDimension(BUTTOMDIMENSION);
 		this.setTableScrollPaneDimension(TABLESCROLLPANEDIMENSION);
@@ -142,7 +140,6 @@ public class TablePanel<T> extends JPanel {
 		initButtons();
 		renderTableData(0, currPageSize);
 		initPageSizeCombox();
-//		initSearchComponent();
 	}
 	
 	private void initPageSizeCombox() {

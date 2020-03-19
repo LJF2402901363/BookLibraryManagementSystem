@@ -122,7 +122,7 @@ public class HomePanel extends JPanel  {
 	    this.add(bottomPanel,BorderLayout.SOUTH);
 	    this.bookCateService =(BookCateService) ServiceFactory.newInstanceService("BookCateService");
 	    this.bookService = (BookService) ServiceFactory.newInstanceService("BookService");
-	    this.accountService =  (AdministratortService) ServiceFactory.newInstanceService("AdministratorService");
+	    this.accountService =  (AdministratortService) ServiceFactory.newInstanceService("AdministratortService");
 	    this.borrowBookService =(BorrowBookRecordService) ServiceFactory.newInstanceService("BorrowBookService");
 	    this.sysLogService =(SysLogService) ServiceFactory.newInstanceService("SysLogService");
 	    initHomePanel();
