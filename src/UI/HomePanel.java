@@ -197,6 +197,7 @@ public class HomePanel extends JPanel  {
       	this.bottomPanel.add(panel);
     	this.bottomPanel.add(splitPane);
     	
+    	
 	}
 	private void initComBoxEvent() {
 	  this.combox.addActionListener(e->{
