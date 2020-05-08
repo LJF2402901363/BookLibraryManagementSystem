@@ -4,8 +4,8 @@ import javax.swing.JTable;
 
 /**
  * @author 陌意随影
- TODO :
- *2020年2月21日  下午3:58:25
+ TODO :测试的AccountTableDemo
+ *2020年3月21日  下午3:58:25
  */
 public class AccountTableDemo  extends JTable {
 	private static final long serialVersionUID = 1L;

@@ -32,7 +32,7 @@ import util.TableDataOutputToExcel;
 /**
  * @author 陌意随影
  TODO :日志面板
- *2020年2月17日  下午10:12:53
+ *2020年3月27日  下午10:12:53
  */
 public class LogManagePanel  extends JPanel{
 	private static final long serialVersionUID = 1L;

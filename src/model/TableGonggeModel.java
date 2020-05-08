@@ -2,8 +2,8 @@ package model;
 
 /**
  * @author 陌意随影
- TODO :
- *2020年2月20日  下午9:40:02
+ TODO :宫格模型
+ *2020年3月20日  下午9:40:02
  */
 public class TableGonggeModel<T> extends BaseTableModel<T>{
 	private static final long serialVersionUID = 1L;

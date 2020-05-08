@@ -3,7 +3,11 @@ package model;
 import domain.BorrowBook;
 import util.DateUtil;
 
-@SuppressWarnings("javadoc")
+/**
+ * @author 陌意随影
+ TODO :借书的模型
+ *2020年3月18日  下午7:54:01
+ */
 public class BorrowBookModel  extends BaseTableModel<BorrowBook> {
 	private static final long serialVersionUID = 1L;
     private static final String[] columnNames= {"编号","id","借阅人姓名","借阅人id","图书名","图书id","借书时间"};

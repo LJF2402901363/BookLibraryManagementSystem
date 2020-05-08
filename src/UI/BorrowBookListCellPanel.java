@@ -16,8 +16,8 @@ import util.DateUtil;
 
 /**
  * @author 陌意随影
- TODO :
- *2020年3月18日  下午5:49:45
+ TODO :借书的面板
+ *2020年3月28日  下午5:49:45
  */
 public class BorrowBookListCellPanel extends JPanel{
 private static final long serialVersionUID = 1L;

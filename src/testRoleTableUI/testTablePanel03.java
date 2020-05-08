@@ -8,8 +8,8 @@ import javax.swing.table.TableColumn;
 
 /**
  * @author 陌意随影
- TODO :
- *2020年2月18日  下午12:08:55
+ TODO :测试table数据
+ *2020年3月18日  下午12:08:55
  */
 public class testTablePanel03  extends JFrame{
 	private static final long serialVersionUID = 1L;

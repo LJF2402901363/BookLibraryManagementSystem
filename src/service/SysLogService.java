@@ -5,7 +5,7 @@ import domain.SysLog;
 /**
  * @author 陌意随影
  TODO :
- *2020年2月27日  下午5:26:46
+ *2020年3月17日  下午5:26:46
  */
 public interface SysLogService extends BaseService<SysLog>{
 

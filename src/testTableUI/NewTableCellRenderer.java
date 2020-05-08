@@ -1,27 +1,14 @@
 package testTableUI;
 
-import java.awt.Color;
 import java.awt.Component;
-import java.awt.Dimension;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-import java.util.EventObject;
-import java.util.Objects;
-
-import javax.swing.AbstractCellEditor;
-import javax.swing.BorderFactory;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
 import javax.swing.JTable;
-import javax.swing.table.TableCellEditor;
 import javax.swing.table.TableCellRenderer;
-
 import domain.Account;
 
 /**
  * @author 陌意随影
  TODO :单元格渲染
- *2020年2月20日  下午9:46:23
+ *2020年3月20日  下午9:46:23
  */
 public class NewTableCellRenderer
 implements TableCellRenderer{

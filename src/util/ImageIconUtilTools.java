@@ -19,7 +19,7 @@ import javax.swing.ImageIcon;
 /**
  * @author 陌意随影
  TODO :ImageIcon工具类
- *2020年2月21日  下午9:57:13
+ *2020年2月31日  下午9:57:13
  */
 public class ImageIconUtilTools {
 	private static HashMap<String, ImageIcon> IconMap = new HashMap<>();

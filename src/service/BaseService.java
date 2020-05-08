@@ -9,7 +9,7 @@ import domain.PageBean;
  * 
  * @author 陌意随影
  TODO :基础的业务逻辑接口
- *2020年2月18日  下午5:15:49
+ *2020年3月8日  下午5:15:49
  */
 public interface BaseService<T> {
 

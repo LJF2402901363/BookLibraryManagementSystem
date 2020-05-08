@@ -4,12 +4,11 @@ import javax.swing.JTable;
 import domain.Book;
 import model.BaseTableModel;
 import service.BaseService;
-import testUI.TableCellRendererDemo;
 
 /**
  * @author 陌意随影
- TODO :
- *2020年2月18日  下午12:01:25
+ TODO :图书表格面板
+ *2020年3月18日  下午12:01:25
  */
 public class BookTablePanel extends TablePanel<Book> {
 	private static final long serialVersionUID = 1L;

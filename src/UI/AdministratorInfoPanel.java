@@ -35,7 +35,7 @@ import util.ImageIconUtilTools;
 /**
  * @author 陌意随影
  TODO :系统管理员信息
- *2020年2月26日  下午4:59:47
+ *2020年3月16日  下午4:59:47
  */
 public class AdministratorInfoPanel  extends JPanel{
 	private static final long serialVersionUID = 1L;

@@ -9,8 +9,8 @@ import javax.swing.tree.TreeCellEditor;
 
 /**
  * @author 陌意随影
- TODO :
- *2020年3月5日  下午10:06:11
+ TODO :测试的BookCateTreeEditor
+ *2020年3月25日  下午10:06:11
  */
 public class BookCateTreeEditor  extends AbstractCellEditor implements TreeCellEditor{
 	private static final long serialVersionUID = 1L;

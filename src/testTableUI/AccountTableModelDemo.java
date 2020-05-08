@@ -1,16 +1,13 @@
 package testTableUI;
 
-import java.util.ArrayList;
-
 import dao.AccountDao;
 import dao.impl.ReaderDaoImpl;
 import domain.Account;
-import service.AdministratortService;
 
 /**
  * @author 陌意随影
- TODO :
- *2020年2月20日  下午9:40:02
+ TODO :测试AccountTableModelDemo
+ *2020年3月20日  下午9:40:02
  */
 public class AccountTableModelDemo extends BaseTableModelDemo<Account>{
 	private static final long serialVersionUID = 1L;

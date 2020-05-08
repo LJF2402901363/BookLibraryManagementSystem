@@ -1,5 +1,11 @@
 package dao.impl;
 
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
 import dao.BookDao;
 import dao.BorrowBookDao;
 import dao.ReaderDao;
@@ -11,18 +17,11 @@ import domain.PageBean;
 import factory.DaoFactory;
 import util.ConfigContant;
 import util.DateUtil;
-import util.EncapsulateJavaBean;
 import util.JdbcUtil;
-
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
 
 /**
  * @author 陌意随影
- * @create 2020-02-09 20:00
+ * @create 2020-02-22 20:00
  * @desc 借书dao的实现类
  **/
 public class BorrowBookDaoImpl implements BorrowBookDao {

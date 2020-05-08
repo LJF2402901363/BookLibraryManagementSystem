@@ -33,7 +33,7 @@ import util.DateUtil;
 /**
  * @author 陌意随影
  TODO :添加新书和修改书的面板当传入的book为null时表示的是添加新书，不为null时表示的是修改书籍
- *2020年2月19日  上午11:26:05
+ *2020年2月29日  上午11:26:05
  */
 public class UpdateBookPanel extends JPanel{
 	private static final long serialVersionUID = 1L;

@@ -11,7 +11,7 @@ import javax.swing.JLabel;
 /**
  * @author 陌意随影
  TODO :
- *2020年2月21日  下午12:52:37
+ *2020年3月21日  下午12:52:37
  */
 public class testSwingHtml extends JFrame{
 	private static final String html ="<html> <h1>你好啊</h1></br><p>是啊</p><a href></a></html>";

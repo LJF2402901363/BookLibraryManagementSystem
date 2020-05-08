@@ -27,7 +27,7 @@ import util.ImageIconUtilTools;
 
 /**
  * 
- * @author 陌意随影 TODO :登录主页面 2020年2月16日 下午2:25:34
+ * @author 陌意随影 TODO :登录主页面 2020年3月26日 下午2:25:34
  */
 public class LoginFrame extends JFrame {
 	private static final long serialVersionUID = 1L;

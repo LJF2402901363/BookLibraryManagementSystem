@@ -16,21 +16,19 @@ import javax.swing.JPopupMenu;
 import javax.swing.JTabbedPane;
 import javax.swing.JTable;
 import javax.swing.table.TableColumn;
-
 import domain.Account;
 import domain.BorrowBook;
 import factory.ServiceFactory;
 import model.BaseTableModel;
 import model.BookRecordModel;
 import service.BorrowBookRecordService;
-import service.ReturnBookService;
 import util.ConfigContant;
 import util.TableDataOutputToExcel;
 
 /**
  * @author 陌意随影
- TODO :
- *2020年3月19日  下午3:44:42
+ TODO :书籍记录面板
+ *2020年3月25日  下午3:44:42
  */
 public class BookRecordBookManagePanel extends JPanel{
 		private static final long serialVersionUID = 1L;

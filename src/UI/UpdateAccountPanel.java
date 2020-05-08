@@ -39,7 +39,7 @@ import util.ImageIconUtilTools;
 /**
  * @author 陌意随影
  TODO :添加新用户和修改密码的面板，若  account为null则说明是添加新用户，否则是更新用户
- *2020年2月19日  上午11:26:05
+ *2020年2月28日  上午11:26:05
  */
 public class UpdateAccountPanel extends JPanel{
 	private static final long serialVersionUID = 1L;

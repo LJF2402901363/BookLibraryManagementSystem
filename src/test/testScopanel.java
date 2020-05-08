@@ -14,7 +14,7 @@ import UI.MyScrollBarUI;
 /**
  * @author 陌意随影
  TODO :测试滚动面板
- *2020年2月20日  下午12:10:26
+ *2020年3月10日  下午12:10:26
  */
 public class testScopanel  extends JFrame {
 	private static final long serialVersionUID = 1L;

@@ -1,16 +1,14 @@
 package model;
 
 import java.util.Date;
-import java.util.List;
 
 import domain.Account;
-import domain.Book;
 import util.DateUtil;
 
 /**
  * @author 陌意随影
- TODO :
- *2020年2月17日  下午11:12:56
+ TODO :账户的表格模型
+ *2020年3月17日  下午11:12:56
  */
 public class AccountTableListModel  extends BaseTableModel<Account>{
 	private static final long serialVersionUID = 1L;

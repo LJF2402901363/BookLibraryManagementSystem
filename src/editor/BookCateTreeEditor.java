@@ -12,8 +12,8 @@ import UI.BookCateTreeNode;
 
 /**
  * @author 陌意随影
- TODO :
- *2020年3月5日  下午10:06:11
+ TODO :图书分类树的编辑器
+ *2020年3月15日  下午10:06:11
  */
 public class BookCateTreeEditor  extends AbstractCellEditor implements TreeCellEditor{
 	private static final long serialVersionUID = 1L;

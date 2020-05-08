@@ -4,7 +4,7 @@ import util.DateUtil;
 /**
  * @author 陌意随影
  TODO :系统日志的表格模型
- *2020年2月28日  下午1:01:28
+ *2020年3月28日  下午1:01:28
  */
 public class SysLogTableModel extends BaseTableModel<SysLog>{
 	private static final long serialVersionUID = 1L;

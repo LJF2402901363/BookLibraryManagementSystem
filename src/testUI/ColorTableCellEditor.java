@@ -16,8 +16,8 @@ import javax.swing.table.TableCellEditor;
 
 /**
  * @author 陌意随影
- TODO :
- *2020年2月20日  下午11:05:14
+ TODO :测试的ColorTableCellEditor
+ *2020年3月20日  下午11:05:14
  */
 public class ColorTableCellEditor extends AbstractCellEditor implements TableCellEditor{
 	private JColorChooser colorChooser;

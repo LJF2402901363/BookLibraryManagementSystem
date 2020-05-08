@@ -1,8 +1,5 @@
 package dao;
 
-import java.util.Map;
-
-import domain.PageBean;
 import domain.SysLog;
 
 /**

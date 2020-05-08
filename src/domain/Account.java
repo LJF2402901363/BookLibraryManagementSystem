@@ -5,7 +5,7 @@ import java.util.Date;
 
 /**
  * @author 陌意随影
- * @create 2020-01-31 17:03
+ * @create 2020-02-21 17:03
  * @desc 账户的实体类
  **/
 public class Account implements Serializable {

@@ -7,8 +7,8 @@ import util.DateUtil;
 
 /**
  * @author 陌意随影
- TODO :
- *2020年2月17日  下午11:12:56
+ TODO :图书表格的模型
+ *2020年3月17日  下午11:12:56
  */
 public class BookTableModel  extends BaseTableModel<Book>{
 	private static final long serialVersionUID = 1L;

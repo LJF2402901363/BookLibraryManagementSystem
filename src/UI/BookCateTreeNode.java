@@ -10,7 +10,7 @@ import domain.BookCate;
 /**
  * @author 陌意随影
  TODO :图书分类的节点
- *2020年3月7日  下午7:50:38
+ *2020年3月27日  下午7:50:38
  */
 public class BookCateTreeNode implements TreeNode{
     private BookCate node;

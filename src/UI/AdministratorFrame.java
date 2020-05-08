@@ -30,7 +30,7 @@ import domain.Account;
 import factory.ManageFactory;
 
 /**
- * @author 陌意随影 TODO :管理员的界面 2020年2月16日 下午9:26:25
+ * @author 陌意随影 TODO :管理员的界面 2020年3月6日 下午9:26:25
  */
 public class AdministratorFrame extends JFrame {
 	private static final long serialVersionUID = 1L;

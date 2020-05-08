@@ -4,10 +4,8 @@ import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.FlowLayout;
 import java.awt.Font;
-import java.awt.GridLayout;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-
 import javax.swing.BorderFactory;
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -19,12 +17,11 @@ import javax.swing.JPasswordField;
 import domain.Account;
 import factory.ServiceFactory;
 import service.AdministratortService;
-import service.ReaderServiceImpl;
 
 /**
  * @author 陌意随影
  TODO :角色管理面板
- *2020年2月17日  下午10:10:32
+ *2020年3月27日  下午10:10:32
  */
 public class PasswordMangePanel extends JPanel{
 	private static final long serialVersionUID = 1L;

@@ -1,33 +1,27 @@
 package testTree;
 
-import java.awt.AWTEvent;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.FlowLayout;
-import java.awt.Toolkit;
-import java.awt.event.AWTEventListener;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-
 import javax.swing.BorderFactory;
 import javax.swing.JButton;
-import javax.swing.JComponent;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
-import javax.swing.SwingUtilities;
 
 /**
  * @author 陌意随影
  TODO : 测试JPanel的事件
- *2020年3月8日  下午1:51:31
+ *2020年3月28日  下午1:51:31
  */
 public class testJPanelEvent  extends JFrame{
+	private static final long serialVersionUID = 1L;
 	private JPanel panel = null;
     private JPanel panel2 = null;
     private JTextField text = null;
     private JButton btn = new JButton("你是");
-	 public testJPanelEvent() {
+	 @SuppressWarnings("javadoc")
+	public testJPanelEvent() {
 		 this.setLayout(new FlowLayout());
 		 this.setBounds(100, 100, 600, 600);
 	    this.panel = new JPanel();

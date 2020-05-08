@@ -37,7 +37,7 @@ import util.TableDataOutputToExcel;
 /**
  * @author 陌意随影
  TODO :图书分类面板
- *2020年3月7日  下午5:39:34
+ *2020年3月27日  下午5:39:34
  */
 
 public class BookCatePanel extends JPanel {
@@ -90,7 +90,6 @@ public BookCatePanel() {
 	 this.pop_out_selected = new JButton("导出选中的数据");
 	 this.popMenu = new JPopupMenu();
 	 this.bookCateService = new BookCateServiceImpl();
-//	 this.setDividerLocation(0.5);
 	 this.splitPane.setDividerLocation(240);
 	 initSplitPanel();
 	 this.setLayout(new BorderLayout());

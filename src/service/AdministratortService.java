@@ -1,11 +1,10 @@
 package service;
 
 import domain.Account;
-import domain.PageBean;
 
 /**
  * @author 陌意随影
- * @create 2020-02-01 13:49
+ * @create 2020-03-01 13:49
  * @desc 用户业务逻辑类的接口
  **/
 public interface AdministratortService extends BaseService<Account>{

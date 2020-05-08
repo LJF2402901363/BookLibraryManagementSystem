@@ -25,8 +25,8 @@ import service.BaseService;
 
 /**
  * @author 陌意随影
- TODO :
- *2020年2月18日  下午12:01:25
+ TODO :测试的TablePanelDemo02
+ *2020年3月18日  下午12:01:25
  */
 public class TablePanelDemo02<T> extends JPanel {
 	private static final long serialVersionUID = 1L;

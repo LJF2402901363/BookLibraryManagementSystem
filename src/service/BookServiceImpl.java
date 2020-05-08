@@ -1,20 +1,17 @@
 package service;
-
+import java.util.Map;
 import dao.BookDao;
-import dao.impl.BookDaoImpl;
 import domain.Book;
 import domain.PageBean;
 import factory.DaoFactory;
-import service.BookService;
-
-import java.util.Map;
 
 /**
  * @author 陌意随影
- * @create 2020-02-02 12:58
- * @desc
+ * @create 2020-03-09 12:58
+ * @desc 这是图书业务逻辑类
  **/
 public class BookServiceImpl implements BookService {
+	//通过工厂模式获取一个dao
 	private BookDao bookDao = (BookDao) DaoFactory.newInstanceDao("BookDao");;
 	@Override
 	public PageBean<Book> fuzzySearchByPage(int offset, int pageSize, String fuzzySearchContent,Map<String, String> condition, String fromDateTime,String toDateTime,
@@ -47,7 +44,6 @@ public class BookServiceImpl implements BookService {
 
 	@Override
 	public int getAllBookCount() {
-		// TODO Auto-generated method stub
 		return bookDao.getAllCount();
 	}
 }

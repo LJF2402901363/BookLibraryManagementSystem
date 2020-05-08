@@ -3,16 +3,14 @@ package service;
 import java.util.Map;
 
 import dao.AccountTypeDao;
-import dao.impl.AccountTypeDaoImpl;
 import domain.AccountType;
-import domain.Book;
 import domain.PageBean;
 import factory.DaoFactory;
 
 /**
  * @author 陌意随影
- TODO :
- *2020年2月23日  下午10:05:39
+ TODO :账户中来业务逻辑的实现类
+ *2020年3月3日  下午10:05:39
  */
 public class AccountTypeServiceImpl implements AccountTypeService{
      private AccountTypeDao accountTypeDao =  (AccountTypeDao) DaoFactory.newInstanceDao("AccountTypeDao");

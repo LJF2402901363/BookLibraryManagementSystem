@@ -4,7 +4,7 @@ import domain.Account;
 
 /**
  * @author 陌意随影
- * @create 2020-01-31 18:30
+ * @create 2020-02-31 18:30
  * @desc 常量文件
  **/
 public class ConfigContant {

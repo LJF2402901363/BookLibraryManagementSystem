@@ -5,7 +5,7 @@ import domain.AccountType;
 /**
  * @author 陌意随影
  TODO :用户类型接口
- *2020年2月23日  下午8:49:26
+ *2020年2月25日  下午8:49:26
  */
 public interface AccountTypeDao extends DAO<AccountType> {
 	/**

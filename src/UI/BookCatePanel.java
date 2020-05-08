@@ -11,8 +11,6 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.Stack;
-
-import javax.swing.BorderFactory;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
@@ -34,13 +32,12 @@ import editor.BookCateTreeEditor;
 import factory.ServiceFactory;
 import render.BookCateTreeCellRender;
 import service.BookCateService;
-import service.BookCateServiceImpl;
 import util.TableDataOutputToExcel;
 
 /**
  * @author 陌意随影
  TODO :图书分类面板
- *2020年3月7日  下午5:39:34
+ *2020年3月27日  下午5:39:34
  */
 
 public class BookCatePanel extends JPanel {

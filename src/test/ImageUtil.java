@@ -18,8 +18,8 @@ import util.ImageIconUtilTools;
 
 /**
  * @author 陌意随影
- TODO :
- *2020年2月21日  下午5:50:10
+ TODO :测试工具类
+ *2020年3月11日  下午5:50:10
  */
 public class ImageUtil {
 	/**

@@ -1,10 +1,7 @@
 package service;
-
 import java.util.List;
 import java.util.Map;
-
 import dao.BookCateDao;
-import dao.impl.BookCateDaoImpl;
 import domain.BookCate;
 import domain.PageBean;
 import factory.DaoFactory;

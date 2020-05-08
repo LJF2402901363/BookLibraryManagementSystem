@@ -10,8 +10,8 @@ import service.BaseService;
 
 /**
  * @author 陌意随影
- TODO :
- *2020年2月18日  下午12:01:25
+ TODO :日志管理的表格面板
+ *2020年2月28日  下午12:01:25
  */
 public class SysLogTablePanel extends TablePanel<SysLog> {
 	

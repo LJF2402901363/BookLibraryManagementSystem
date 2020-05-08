@@ -16,7 +16,7 @@ import util.JdbcUtil;
 
 /**
  * @author 陌意随影
- TODO :
+ TODO :图书分类的dao接口
  *2020年3月8日  下午4:09:19
  */
 public class BookCateDaoImpl  implements BookCateDao{

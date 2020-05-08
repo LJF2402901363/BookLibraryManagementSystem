@@ -10,8 +10,8 @@ import service.BaseService;
 
 /**
  * @author 陌意随影
- TODO :
- *2020年2月18日  下午12:01:25
+ TODO :用户表格面板
+ *2020年3月8日  下午12:01:25
  */
 public class AccountTablePanel extends TablePanel<Account>{
 	private static final long serialVersionUID = 1L;

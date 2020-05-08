@@ -10,7 +10,7 @@ import java.util.Properties;
 
 /**
  * @author 陌意随影
- * @create 2020-01-31 17:41
+ * @create 2020-02-31 17:41
  * @desc msql数据库连接的工具类
  **/
 public class JdbcUtil {

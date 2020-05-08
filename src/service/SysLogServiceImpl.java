@@ -3,7 +3,6 @@ package service;
 import java.util.Map;
 
 import dao.SysLogDao;
-import dao.impl.SysLogDaoImpl;
 import domain.PageBean;
 import domain.SysLog;
 import factory.DaoFactory;
@@ -11,7 +10,7 @@ import factory.DaoFactory;
 /**
  * @author 陌意随影
  TODO :SysLog业务逻辑实现类
- *2020年2月27日  下午5:27:35
+ *2020年3月17日  下午5:27:35
  */
 public class SysLogServiceImpl implements SysLogService {
    private SysLogDao dao = (SysLogDao) DaoFactory.newInstanceDao("SysLogDao");

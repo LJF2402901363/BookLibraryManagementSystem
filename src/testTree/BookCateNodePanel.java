@@ -7,12 +7,10 @@ import java.awt.Toolkit;
 import java.awt.event.AWTEventListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-
 import javax.swing.BorderFactory;
 import javax.swing.Icon;
 import javax.swing.JButton;
 import javax.swing.JComponent;
-import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 import javax.swing.SwingUtilities;
@@ -21,7 +19,7 @@ import javax.swing.SwingUtilities;
 /**
  * @author 陌意随影
  TODO :节点面板
- *2020年3月6日  下午11:46:24
+ *2020年3月26日  下午11:46:24
  */
 public class BookCateNodePanel extends JPanel {
 	private static final long serialVersionUID = 1L;

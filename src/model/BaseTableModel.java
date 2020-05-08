@@ -2,20 +2,16 @@ package model;
 
 import java.io.Serializable;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 import javax.swing.table.AbstractTableModel;
-import javax.swing.table.DefaultTableModel;
 
-import domain.Book;
 import domain.PageBean;
-import util.DateUtil;
 
 /**
  * @author 陌意随影
- TODO :
- *2020年2月17日  下午11:12:56
+ TODO :模型的基本父类
+ *2020年3月17日  下午11:12:56
  */
 public abstract class BaseTableModel<T>  extends AbstractTableModel implements Serializable{
 	private static final long serialVersionUID = 1L;

@@ -15,7 +15,7 @@ import util.JdbcUtil;
 /**
  * @author 陌意随影
  TODO :日志的数据库接口实现类
- *2020年2月27日  下午5:03:45
+ *2020年3月17日  下午5:03:45
  */
 public class SysLogDaoImpl implements SysLogDao {
 	private static String  sysLogName = ConfigContant.SYSLOG_TABLE;

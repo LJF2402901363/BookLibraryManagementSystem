@@ -9,7 +9,7 @@ import domain.Account;
 /**
  * @author 陌意随影
  *  TODO :单元格渲染
- *  2020年2月20日 下午9:46:23
+ *  2020年3月10日 下午9:46:23
  */
 public class AccountGongGeTableCellRender
 implements TableCellRenderer{

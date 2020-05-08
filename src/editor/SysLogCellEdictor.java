@@ -15,7 +15,7 @@ import model.SysLogTableModel;
 /**
  * @author 陌意随影
  TODO :SysLog的表格单元
- *2020年2月28日  下午4:09:06
+ *2020年3月28日  下午4:09:06
  */
 public class SysLogCellEdictor  extends AbstractCellEditor implements TableCellEditor {
 	private static final long serialVersionUID = 1L;

@@ -25,14 +25,12 @@ import factory.ServiceFactory;
 import model.BaseTableModel;
 import model.BookTableModel;
 import service.BookService;
-import service.BookServiceImpl;
 import service.SysLogService;
-import service.SysLogServiceImpl;
 import util.ConfigContant;
 import util.TableDataOutputToExcel;
 
 /**
- * @author 陌意随影 TODO :图书管理面板 2020年2月17日 下午10:09:04
+ * @author 陌意随影 TODO :图书管理面板 2020年3月17日 下午10:09:04
  */
 public class BookManagePanel extends JPanel {
 	private static final long serialVersionUID = 1L;

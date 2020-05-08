@@ -6,7 +6,7 @@ import domain.Account;
 
 /**
  * @author 陌意随影
- TODO :
+ TODO :管理员的dao接口
  *2020年3月18日  下午12:55:20
  */
 public class AdministratorDaoImpl  extends AbstractAccountDao implements AdministratorDao {

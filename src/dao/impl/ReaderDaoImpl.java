@@ -6,7 +6,7 @@ import domain.Account;
 
 /**
  * @author 陌意随影
- * @create 2020-01-31 20:58
+ * @create 2020-02-22 20:58
  * @desc AccountDao的实现类
  **/
 public class ReaderDaoImpl extends AbstractAccountDao implements ReaderDao{

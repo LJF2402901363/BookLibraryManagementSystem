@@ -20,7 +20,7 @@ import domain.Account;
 /**
  * @author 陌意随影
  TODO :图书管理的面板
- *2020年2月17日  下午10:07:54
+ *2020年3月17日  下午10:07:54
  */
 public class ManageFactory  {
 	private static HomePanel homePanel = null;

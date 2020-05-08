@@ -4,7 +4,7 @@ import java.util.Date;
 
 /**
  * @author 陌意随影
- * @create 2020-02-09 19:56
+ * @create 2020-02-22 19:56
  * @desc 借书情况的实体类
  **/
 public class BorrowBook {

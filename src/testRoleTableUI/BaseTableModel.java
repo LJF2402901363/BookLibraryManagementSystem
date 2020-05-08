@@ -8,8 +8,8 @@ import javax.swing.table.AbstractTableModel;
 
 /**
  * @author 陌意随影
- TODO :
- *2020年2月17日  下午11:12:56
+ TODO :BaseTableModel
+ *2020年3月17日  下午11:12:56
  */
 public abstract class BaseTableModel<T>  extends AbstractTableModel implements Serializable{
 	private static final long serialVersionUID = 1L;

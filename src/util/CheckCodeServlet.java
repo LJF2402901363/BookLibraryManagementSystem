@@ -11,7 +11,7 @@ import javax.imageio.ImageIO;
 /**
  * @TODO:
  * @author: 陌意随影
- * @date: 2020-02-01 12:14
+ * @date: 2020-03-01 12:14
  */
 public class CheckCodeServlet {
    public static  Image getImage()  {

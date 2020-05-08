@@ -18,7 +18,7 @@ import service.BookServiceImpl;
 /**
  * @author 陌意随影
  TODO :
- *2020年2月18日  下午12:08:55
+ *2020年3月18日  下午12:08:55
  */
 public class testTablePanel02  extends JFrame{
 	private static final long serialVersionUID = 1L;

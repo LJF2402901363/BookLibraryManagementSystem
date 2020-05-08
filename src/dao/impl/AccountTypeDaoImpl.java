@@ -8,7 +8,6 @@ import java.util.Map;
 
 import dao.AccountTypeDao;
 import dao.ResultSetHandler;
-import domain.Account;
 import domain.AccountType;
 import domain.PageBean;
 import util.ConfigContant;
@@ -17,8 +16,8 @@ import util.JdbcUtil;
 
 /**
  * @author 陌意随影
- TODO :
- *2020年2月23日  下午8:49:59
+ TODO :账号类型的dao实现类
+ *2020年3月19日  下午8:49:59
  */
 public class AccountTypeDaoImpl implements AccountTypeDao{
    private  final static String TABLENAME = ConfigContant.ACCOUNTTYPE_TABLE ;

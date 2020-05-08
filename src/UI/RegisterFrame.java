@@ -23,12 +23,11 @@ import javax.swing.text.JTextComponent;
 import domain.Account;
 import factory.ServiceFactory;
 import service.AdministratortService;
-import service.ReaderServiceImpl;
 import util.ConfigContant;
 import util.ImageIconUtilTools;
 
 /**
- * @author 陌意随影 TODO :用户注册页面 2020年2月16日 下午3:45:25
+ * @author 陌意随影 TODO :用户注册页面 2020年3月26日 下午3:45:25
  */
 public class RegisterFrame extends JFrame {
 	private static final long serialVersionUID = 1L;

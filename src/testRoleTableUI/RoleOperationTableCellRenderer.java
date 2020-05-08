@@ -13,16 +13,11 @@ import javax.swing.JPanel;
 import javax.swing.JTable;
 import javax.swing.table.TableCellEditor;
 import javax.swing.table.TableCellRenderer;
-import javax.swing.table.TableColumn;
-import javax.swing.table.TableModel;
-
-import domain.Account;
-import testUI.AccountTableDemo;
 
 /**
  * @author 陌意随影
  TODO :单元格渲染
- *2020年2月20日  下午9:46:23
+ *2020年3月20日  下午9:46:23
  */
 public class RoleOperationTableCellRenderer extends AbstractCellEditor
 implements  TableCellEditor,TableCellRenderer{

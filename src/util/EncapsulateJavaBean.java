@@ -12,7 +12,7 @@ import java.util.Map;
 
 /**
  * @author 陌意随影
- * @create 2020-01-31 21:02
+ * @create 2020-02-31 21:02
  * @desc 封装JavaBean对象
  **/
 public class EncapsulateJavaBean {

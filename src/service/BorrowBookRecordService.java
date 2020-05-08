@@ -12,7 +12,7 @@ import domain.BorrowBook;
 
 /**
  * @author 陌意随影
- * @create 2020-02-09 20:36
+ * @create 2020-03-09 20:36
  * @desc 借书的业务逻辑接口
  **/
 public interface BorrowBookRecordService  extends BaseService<BorrowBook>{

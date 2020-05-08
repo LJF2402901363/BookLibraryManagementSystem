@@ -8,10 +8,10 @@ import java.util.regex.Pattern;
 
 /**
  * 
- * @author 陌意随影 TODO :登录验证的工具类 2020年2月16日 下午2:30:15
+ * @author 陌意随影 TODO :登录验证的工具类 2020年2月31日 下午2:30:15
  */
 public class LoginAuthentication {
-	/** ������ʽ */
+	/**正则表达式的ʽ */
 	private static Pattern p = null;
 	/** 用户名的格式 */
 	public static String unameFormat = "";

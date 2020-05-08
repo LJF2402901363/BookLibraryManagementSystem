@@ -5,7 +5,7 @@ import domain.AccountType;
 /**
  * @author 陌意随影
  TODO :图书类型的模型
- *2020年2月23日  下午8:44:29
+ *2020年3月13日  下午8:44:29
  */
 public class AccountTyeMode extends BaseTableModel<AccountType> {
 	private static final long serialVersionUID = 1L;

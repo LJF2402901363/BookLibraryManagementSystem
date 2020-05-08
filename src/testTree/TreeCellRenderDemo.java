@@ -1,29 +1,14 @@
 package testTree;
 
-import java.awt.AWTEvent;
-import java.awt.Color;
 import java.awt.Component;
-import java.awt.Dimension;
 import java.awt.Font;
-import java.awt.Toolkit;
-import java.awt.event.AWTEventListener;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-
-import javax.swing.BorderFactory;
 import javax.swing.ImageIcon;
-import javax.swing.JButton;
-import javax.swing.JComponent;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
 import javax.swing.JTree;
-import javax.swing.SwingUtilities;
 import javax.swing.tree.TreeCellRenderer;
-import javax.swing.tree.TreePath;
 /**
  * @author 陌意随影
- TODO :
- *2020年3月5日  下午7:15:26
+ TODO :测试TreeCellRenderDemo
+ *2020年3月25日  下午7:15:26
  */
 
 public class TreeCellRenderDemo  implements TreeCellRenderer{

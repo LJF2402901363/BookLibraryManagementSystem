@@ -1,8 +1,5 @@
  package testUI;
 
-import java.awt.Dimension;
-
-import javax.swing.JEditorPane;
 import javax.swing.JFrame;
 
 import UI.BookCateManagePanel;
@@ -10,7 +7,7 @@ import UI.BookCateManagePanel;
 /**
  * @author 陌意随影
  TODO :
- *2020年2月20日  下午2:45:08
+ *2020年3月20日  下午2:45:08
  */
 public class testJSlipane  extends JFrame {
 	private static final long serialVersionUID = 1L;

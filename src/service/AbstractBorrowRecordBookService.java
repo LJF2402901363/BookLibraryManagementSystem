@@ -1,18 +1,14 @@
 package service;
-
 import java.util.List;
 import java.util.Map;
-
 import dao.BorrowBookDao;
-import dao.impl.BorrowBookDaoImpl;
 import domain.BorrowBook;
 import domain.PageBean;
 import factory.DaoFactory;
-import service.BorrowBookRecordService;
 
 /**
  * @author 陌意随影
- * @create 2020-02-09 20:37
+ * @create 2020-03-09 20:37
  * @desc 借书业务逻辑的实现
  **/
 public abstract class AbstractBorrowRecordBookService implements BorrowBookRecordService {

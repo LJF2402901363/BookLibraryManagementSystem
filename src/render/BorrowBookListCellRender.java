@@ -8,8 +8,8 @@ import domain.BorrowBook;
 
 /**
  * @author 陌意随影
- TODO :
- *2020年3月18日  下午5:32:18
+ TODO :借书的渲染器
+ *2020年3月8日  下午5:32:18
  */
 public class BorrowBookListCellRender implements  ListCellRenderer<Object>{
     private BorrowBookListCellPanel panel = null;

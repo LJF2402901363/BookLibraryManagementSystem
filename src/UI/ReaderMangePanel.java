@@ -23,16 +23,13 @@ import domain.SysLog;
 import factory.ServiceFactory;
 import model.AccountTableListModel;
 import model.BaseTableModel;
-import service.AdministratortService;
 import service.ReaderService;
-import service.ReaderServiceImpl;
 import service.SysLogService;
-import service.SysLogServiceImpl;
 import util.ConfigContant;
 import util.TableDataOutputToExcel;
 
 /**
- * @author 陌意随影 TODO :读者管理面板 2020年2月17日 下午10:10:32
+ * @author 陌意随影 TODO :读者管理面板 2020年3月27日 下午10:10:32
  */
 public class ReaderMangePanel extends JPanel {
 	private static final long serialVersionUID = 1L;

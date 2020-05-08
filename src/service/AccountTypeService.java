@@ -4,8 +4,8 @@ import domain.AccountType;
 
 /**
  * @author 陌意随影
- TODO :
- *2020年2月23日  下午9:07:27
+ TODO :账户类型的业务逻辑接口
+ *2020年3月3日  下午9:07:27
  */
 public interface AccountTypeService extends BaseService<AccountType> {
 

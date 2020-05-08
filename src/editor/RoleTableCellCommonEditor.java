@@ -11,7 +11,7 @@ import model.AccountTyeMode;
 /**
  * @author 陌意随影
  TODO :角色管理的普通编辑器
- *2020年3月2日  下午7:45:20
+ *2020年3月23日  下午7:45:20
  */
 public class RoleTableCellCommonEditor extends DefaultCellEditor{
     private int row;

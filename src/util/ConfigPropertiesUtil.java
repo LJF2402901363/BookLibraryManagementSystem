@@ -10,7 +10,7 @@ import java.util.Properties;
 
 /**
  * @author 陌意随影
- * @create 2020-01-31 17:57
+ * @create 2020-02-31 17:57
  * @desc 配置文件的工具类
  **/
 public class ConfigPropertiesUtil {

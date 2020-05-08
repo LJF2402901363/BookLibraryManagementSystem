@@ -11,7 +11,7 @@ import java.util.Random;
 import javax.swing.JLabel;
 
 /**
- * @author 陌意随影 TODO :验证码的JLabel重写控件 2020年1月8日 下午11:53:39
+ * @author 陌意随影 TODO :验证码的JLabel重写控件 2020年3月18日 下午11:53:39
  */
 public class CheckCodeLabel extends JLabel {
 	private static final long serialVersionUID = 1L;

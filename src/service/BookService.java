@@ -1,13 +1,9 @@
 package service;
-
 import domain.Book;
-import domain.PageBean;
-
-import java.util.Map;
 
 /**
  * @author 陌意随影
- * @create 2020-02-02 12:57
+ * @create 2020-03-08 12:57
  * @desc 书籍的业务逻辑接口
  **/
 public interface BookService extends BaseService<Book> {
