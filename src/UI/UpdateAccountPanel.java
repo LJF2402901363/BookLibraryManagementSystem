@@ -73,7 +73,7 @@ public class UpdateAccountPanel extends JPanel{
 		this.accountStatus = new JComboBox<String>(ConfigContant.ACCOUNTSTATUS);
 		this.accountSignature = new JTextArea("请输入用户签名");
 		this.createTimePicker = new DatePicker();
-		this.accountService = (AdministratortService) ServiceFactory.newInstanceService("AccountService");;
+		this.accountService = (AdministratortService) ServiceFactory.newInstanceService("AdministratortService");;
 		this.account = account;
 		this.administrator = administrator;
 		this.btn_chooseImg = new JButton("上传头像");
@@ -250,6 +250,7 @@ public class UpdateAccountPanel extends JPanel{
 					  account.setSex(sex);
 					  account.setSignature(signature);
 					  account.setCreateTime(createDate);
+					  System.out.println(accountService);
 					  boolean fla = accountService.updateAccount(account);
 					  if(fla) {
 						  SysLog log = new SysLog();

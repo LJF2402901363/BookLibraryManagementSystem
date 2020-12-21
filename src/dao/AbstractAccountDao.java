@@ -38,11 +38,13 @@ public abstract class AbstractAccountDao  implements AccountDao{
 	@Override
 	public int upDate(Account account) {
 		// password | createTime | status | type | sex | hobby | signature | age |
+		System.out.println("更新用户"+account);
 		String sql = "update  " + accountTable
 				+ "  set name=?,password=?,createTime=?,status=?,type=?,sex=?,hobby=?,signature=?,age=?,headImgPath=? where id=?";
 		int result = JdbcUtil.upDate(sql, account.getName(), account.getPassword(), account.getCreateTime(),
 				account.getStatus(), account.getType(), account.getSex(), account.getHobby(), account.getSignature(),
 				account.getAge(), account.getHeadImgPath(),account.getId());
+		System.out.println("更新完成："+result);
 		return result;
 	}
 

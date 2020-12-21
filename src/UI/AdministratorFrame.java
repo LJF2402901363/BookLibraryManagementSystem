@@ -135,9 +135,9 @@ public class AdministratorFrame extends JFrame {
 	private JPanel navLeftPanel() {
 		JPanel panel = new JPanel();
 		panel.setOpaque(false);
-		panel.setPreferredSize(new Dimension(150,40));
-		Font font = new Font("微软雅黑", Font.BOLD, 18);
-		JLabel lbl_tittle = new JLabel("老九图书管理系统");
+		panel.setPreferredSize(new Dimension(250,40));
+		Font font = new Font("微软雅黑", Font.BOLD, 16);
+		JLabel lbl_tittle = new JLabel("图书管理系统");
 		lbl_tittle.setFont(font);
 		lbl_tittle.setForeground(Color.WHITE);
 		panel.add(lbl_tittle);
