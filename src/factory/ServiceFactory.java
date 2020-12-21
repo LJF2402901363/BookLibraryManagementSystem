@@ -25,12 +25,10 @@ public class ServiceFactory {
 				  try {
 					Constructor<?> constructor = obj.getConstructor();
 					Object object = constructor.newInstance();
-//					System.out.println(key);
 					serviceMap.put((String)key, object);
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
-				
 			} catch (ClassNotFoundException e) {
 				e.printStackTrace();
 			}
